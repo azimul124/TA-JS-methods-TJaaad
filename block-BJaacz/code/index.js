@@ -3,11 +3,15 @@
 /*
   Create a function named addTwo which accepts a number, adds 2 to the number and return the new value.
 */
-
+function addTwo(number, adds2) {
+  return number + adds2;
+}
 /*
   Create a function named addThree which accepts a number, adds 3 to the number and return the new value.
 */
-
+function addThree(number, add3) {
+  return number + add3;
+}
 /*
   Create a function named addFive which accepts a number, adds 5 to the number and return the new value.
 */
@@ -83,23 +87,23 @@ In above function addTwoToArray, addThreeToArray, addFiveToArray we are repeatin
 
 // Data Starts (Don't change this)
 const people = [
-  { name: 'John Doe', age: 16 },
-  { name: 'Thomas Calls', age: 19 },
-  { name: 'Liam Smith', age: 20 },
-  { name: 'Jessy Pinkman', age: 18 },
+  { name: "John Doe", age: 16 },
+  { name: "Thomas Calls", age: 19 },
+  { name: "Liam Smith", age: 20 },
+  { name: "Jessy Pinkman", age: 18 },
 ];
 
 const grades = [
-  { name: 'John', grade: 8, sex: 'M' },
-  { name: 'Sarah', grade: 12, sex: 'F' },
-  { name: 'Bob', grade: 16, sex: 'M' },
-  { name: 'Johnny', grade: 2, sex: 'M' },
-  { name: 'Ethan', grade: 4, sex: 'M' },
-  { name: 'Paula', grade: 18, sex: 'F' },
-  { name: 'Donald', grade: 5, sex: 'M' },
-  { name: 'Jennifer', grade: 13, sex: 'F' },
-  { name: 'Courtney', grade: 15, sex: 'F' },
-  { name: 'Jane', grade: 9, sex: 'F' },
+  { name: "John", grade: 8, sex: "M" },
+  { name: "Sarah", grade: 12, sex: "F" },
+  { name: "Bob", grade: 16, sex: "M" },
+  { name: "Johnny", grade: 2, sex: "M" },
+  { name: "Ethan", grade: 4, sex: "M" },
+  { name: "Paula", grade: 18, sex: "F" },
+  { name: "Donald", grade: 5, sex: "M" },
+  { name: "Jennifer", grade: 13, sex: "F" },
+  { name: "Courtney", grade: 15, sex: "F" },
+  { name: "Jane", grade: 9, sex: "F" },
 ];
 // Data Ends
 
@@ -318,4 +322,153 @@ filter is a higher order function.
     console.log(multiplyByFive(10)); // 90
     console.log(multiplyByFive(20)); // 180
     console.log(multiplyByFive(5)); // 45
+*/
+
+
+
+
+
+EXAMPLE:
+console.log(filterAdult(people));
+
+Output: 
+[
+  { name: 'Thomas Calls', age: 19 },
+  { name: 'Liam Smith', age: 20 },
+];
+*/
+
+/*
+Create a function named filterMale which accepts:
+- an array of objects
+- returns a new array with the value of sex is `M` or not
+- while doing so use the funciton isMale you created earlier
+
+EXAMPLE:
+console.log(filterMale(grade));
+
+Output: 
+[
+  { name: 'John', grade: 8, sex: 'M' },
+  { name: 'Bob', grade: 16, sex: 'M' },
+  { name: 'Johnny', grade: 2, sex: 'M' },
+  { name: 'Ethan', grade: 4, sex: 'M' },
+  { name: 'Donald', grade: 5, sex: 'M' },
+];
+*/
+
+/*
+Create a function named filterFemale which accepts:
+- an array of objects
+- returns a new array with the value of sex is `F` or not
+- while doing so use the funciton isFemale you created earlier
+
+EXAMPLE:
+cosnsole.log(filterFemale(grade));
+
+Output: 
+[
+  { name: 'Sarah', grade: 12, sex: 'F' },
+  { name: 'Paula', grade: 18, sex: 'F' },
+  { name: 'Jennifer', grade: 13, sex: 'F' },
+  { name: 'Courtney', grade: 15, sex: 'F' },
+  { name: 'Jane', grade: 9, sex: 'F' },
+]
+*/
+
+/*
+Create a function named filterGradeA which accepts:
+- an array of objects
+- returns a new array with the value of grade is greater than 12 or not
+- while doing so use the funciton isGradeA you created earlier
+
+
+EXAMPLE:
+console.log(filterGradeA(grade));
+
+Output: 
+[
+  { name: 'Sarah', grade: 12, sex: 'F' },
+  { name: 'Paula', grade: 18, sex: 'F' },
+  { name: 'Jennifer', grade: 13, sex: 'F' },
+  { name: 'Courtney', grade: 15, sex: 'F' },
+  { name: 'Jane', grade: 9, sex: 'F' },
+]
+*/
+
+/*
+Create a function named filterGradeB which accepts:
+- an array of objects
+- returns a new array with the value of grade is greater than 8 and less than or equal to 12 or not
+- while doing so use the funciton isGradeB you created earlier
+
+EXAMPLE:
+console.log(filterGradeB(grade));
+
+Output: 
+[
+ { name: 'Sarah', grade: 12, sex: 'F' },
+ { name: 'Johnny', grade: 2, sex: 'M' },
+ { name: 'Ethan', grade: 4, sex: 'M' },
+ { name: 'Donald', grade: 5, sex: 'M' },
+ { name: 'Jane', grade: 9, sex: 'F' },
+]
+*/
+
+/*
+Create a function named filterGradeC which accepts:
+- an array of objects
+- returns a new array with the value of grade is greater less or equal to 8 or not
+- while doing so use the funciton isGradeC you created earlier
+
+EXAMPLE:
+console.log(filterGradeC(grade));
+
+Output: 
+ [
+  { name: 'John', grade: 8, sex: 'M' },
+  { name: 'Johnny', grade: 2, sex: 'M' },
+  { name: 'Ethan', grade: 4, sex: 'M' },
+  { name: 'Donald', grade: 5, sex: 'M' },
+]
+*/
+
+/*
+We are repeating lots of code in above functions like filterGradeC, filterGradeB, filterGradeA, filterAdult. We will fix
+this by making a higher order function named filter. Now using one function filter we will be able to filter anything we want.
+filter is a higher order function.
+
+Create a function named filter which accepts:
+- an array of objects
+- a callback function (which should return true or false)
+- call the callback function with each object of array
+- if callback function returns true add to new array otherwise don't
+- returns a new array
+
+EXAMPLE:
+console.log(filter(people, isAdult));
+console.log(filter(grade, isMale));
+console.log(filter(grade, isFemale));
+console.log(filter(grade, isGradeA));
+console.log(filter(grade, isGradeB));
+console.log(filter(grade, isGradeC));
+*/
+
+/*
+Create a function named multiplyBy which accepts:
+- a number (num)
+- and returns a function
+- returned function accepts another number (num2) and return num * num2
+
+EXAMPLE:
+let multiplyByFive = multiplyBy(5);
+console.log(multiplyByFive(10)); // 50
+console.log(multiplyByFive(20)); // 100
+console.log(multiplyByFive(5)); // 25
+
+
+let multiplyByNine = multiplyBy(9);
+console.log(multiplyByFive(10)); // 90
+console.log(multiplyByFive(20)); // 180
+console.log(multiplyByFive(5)); // 45
 */
