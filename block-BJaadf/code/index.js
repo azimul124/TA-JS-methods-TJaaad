@@ -69,3 +69,30 @@ let numbersThree = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 // Join all fruits with '-', convert to uppercase and log it
 
 // Join all fruits with '&', convert to lowercase and log it
+
+
+
+
+
+
+
+
+Add a new element ('Papaya') into fruits array at end
+
+// Remove the last element from fruits array
+
+// Log the current length of fruits array
+
+// Remove the first element from fruits and log the value of fruits (use delete arr[0])
+
+// Log the element on index 0 and 1
+
+// If the element at 0 index is undefined and index 1 is 'Banana' shift all the values to one lower index (use shift method)
+
+// Add a new element to the start ('Guava') and shift the index of all other to one higher value
+
+// Add a new element to the start ('Dragon Fruit') and shift the index of all other to one higher value
+
+// Log true or false based on the value at index 0 and 1 is 'Dragon Fruit' and 'Guava' or not
+
+// Update the value of index 1 to `Pears`
