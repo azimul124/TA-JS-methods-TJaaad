@@ -7,11 +7,11 @@ let to = 'Arya Stark';
 /*
 1. Find the index of the first 'is' in the variable quote. And store it in a new variable named indexOfIs
 */
-
+let indexOfIs=quote.indexOf(is);
 /*
 2. Find the character at the index indexOfIs (Problem 1) in quote.
 */
-
+indexOfIs.charAt()
 /*
 3. Log the message saying `The index of first is in quote is 7`
 */
@@ -95,4 +95,51 @@ Store the output in a new variable
 
 /*
 21. Find out does quote, from, to starts with "A"
+*/
+
+
+
+
+
+
+
+11. Change the word "today" in quoteSplitted to "tomorrow" and join all the words to form a sentance.
+*/
+
+/*
+12. Find the index of second "o" in quote. Use indexOf
+*/
+
+/*
+13. Find the last index of letter "a" in quote.
+*/
+
+/*
+14. Find the second last index of letter "a" in quote.
+*/
+
+/*
+15. Make the quote 70 character long. If it has less characters add rest as .......
+Example: "Hello" (convert to 10 characters) => "Hello....."
+Store the output in a new variable
+*/
+
+/*
+16. Do same as (15) but the ... should come in start. Store the output in a new variable
+*/
+
+/*
+17. Log the repeat of "Hello World!" 10 times.
+*/
+
+/*
+18. Replace today to tomorrow in quote.
+*/
+
+/*
+19. Replace Stark to Lannister in quoteTo
+*/
+
+/*
+20. Make the quote of length 30 and put ... at the end. (use slice)
 */
