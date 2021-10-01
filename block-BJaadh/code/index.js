@@ -1,6 +1,6 @@
 // Use the below two arrays and practice array methods
 var numbers = [1, 12, 4, 18, 9, 7, 11, 3, 101, 5, 6, 9];
-var strings = ['This', 'is', 'a', 'collection', 'of', 'words'];
+var strings = ["This", "is", "a", "collection", "of", "words"];
 
 /*
 NOTE:
@@ -11,11 +11,11 @@ Clone the array before using sort method: [...arr]
 */
 
 // - Find the index of `101` in numbers
-
+numbers.indexOf(101);
 // - Find the last index of `9` in numbers
-
+numbers.lastIndexOf(9);
 // - Convert value of strings array into a sentance like "This is a collection of words"
-
+strings.flat();
 // - Add two new words in the strings array "called" and "sentance"
 
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
@@ -54,10 +54,29 @@ Clone the array before using sort method: [...arr]
 
 // - Customers Array
 var customers = [
-  { firstname: 'Joe', lastname: 'Blogs' },
-  { firstname: 'John', lastname: 'Smith' },
-  { firstname: 'Dave', lastname: 'Jones' },
-  { firstname: 'Jack', lastname: 'White' },
+  { firstname: "Joe", lastname: "Blogs" },
+  { firstname: "John", lastname: "Smith" },
+  { firstname: "Dave", lastname: "Jones" },
+  { firstname: "Jack", lastname: "White" },
+];
+// - Find all customers whose firstname starts with 'J'
+
+// - Create new array with only first name
+
+// - Create new array with all the full names (ex: "Joe Blogs")
+
+// - Sort the array created above alphabetically
+
+// - Create a new array that contains only user who has at least one vowel in the firstname.
+
+// - Find the sum of the length of words using above question
+
+// - Customers Array
+var customers = [
+  { firstname: "Joe", lastname: "Blogs" },
+  { firstname: "John", lastname: "Smith" },
+  { firstname: "Dave", lastname: "Jones" },
+  { firstname: "Jack", lastname: "White" },
 ];
 // - Find all customers whose firstname starts with 'J'
 
