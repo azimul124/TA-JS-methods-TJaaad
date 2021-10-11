@@ -1,12 +1,12 @@
 let words = [
-  'mystery',
-  'brother',
-  'aviator',
-  'crocodile',
-  'pearl',
-  'orchard',
-  'crackpot',
-  'rhythm',
+  "mystery",
+  "brother",
+  "aviator",
+  "crocodile",
+  "pearl",
+  "orchard",
+  "crackpot",
+  "rhythm",
 ];
 
 // - Write a function findLongestWord that takes an array of words and returns the longest word from the array. (Use above array "words" to test it). If there are 2 with the same length, it should return the first occurrence.
@@ -42,16 +42,46 @@ let numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 //- Write a function averageNumbers that receives an array of numbers and calculate the average of the numbers
 
 let strings = [
-  'seat',
-  'correspond',
-  'linen',
-  'motif',
-  'hole',
-  'smell',
-  'smart',
-  'chaos',
-  'fuel',
-  'palace',
+  "seat",
+  "correspond",
+  "linen",
+  "motif",
+  "hole",
+  "smell",
+  "smart",
+  "chaos",
+  "fuel",
+  "palace",
+];
+
+// - Write a function averageWordLength that receives an array of words2 and calculate the average length of the words.
+
+let strings = [
+  "seat",
+  "correspond",
+  "linen",
+  "motif",
+  "hole",
+  "smell",
+  "smart",
+  "chaos",
+  "fuel",
+  "palace",
+];
+
+// - Write a function averageWordLength that receives an array of words2 and calculate the average length of the words.
+
+let strings = [
+  "seat",
+  "correspond",
+  "linen",
+  "motif",
+  "hole",
+  "smell",
+  "smart",
+  "chaos",
+  "fuel",
+  "palace",
 ];
 
 // - Write a function averageWordLength that receives an array of words2 and calculate the average length of the words.
